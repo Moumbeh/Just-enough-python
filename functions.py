@@ -71,3 +71,13 @@ def time_activity(*args, **kwargs):
 
 time_activity( hobby="Dance", sport="Boxing", fun="Driving", work="DevOps")
 time_activity(10, 20, 10, hobby="Dance", sport="Boxing", fun="Driving", work="DevOps")
+
+####################################
+print("################### Food order #########################")
+def order_food(min_order, *args):
+    for items in args:
+        print(f"You have ordered: {items}")
+    print("Your food will be delivered in 30 mins")
+    print("Enjoy your meal")
+
+order_food("salad", "jellof rice", "Egusi" )
